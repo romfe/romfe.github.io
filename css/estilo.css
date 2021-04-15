@@ -1,0 +1,163 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #666;
+    line-height: 1.2;
+}
+a{
+    transition: color .3s linear;
+}
+
+p{
+    margin: 0 0 1.5em;
+    line-height: 1.5;
+}
+
+sub, sup{
+    font-size: 12px;
+}
+
+blockquote{
+    border-left: 5px solid #efefef;
+    margin: 1.5em 0;
+    padding: .5em 0 .5em 1.5em;  
+}
+li{
+    margin-left:15px;
+}
+
+code{
+    background: #f7f7f7;
+    border-radius: .35em;
+    border: 2px solid #efefef;
+    font-size: .9em;
+    padding: 0.25em 0.65em;
+    display:block;
+    font-family:"Courier New", Courier, monospace;
+    color: #929292;
+}
+
+pre code{
+    display:block;
+}
+
+ul, ol{
+    margin: 0;
+    padding: 0;
+    padding-left: .5em;
+}
+
+li{
+    padding-left: .5em;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+    margin:  1em 0;
+}
+.ul-icons{
+    list-style-type: none;
+    padding-left: 0;
+}
+.ul-icons li{
+    display: inline-block;
+    color:white;
+    font-size: 3em;
+}
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: black;
+    /*padding: 50px 0 50px 10px;*/
+    padding-top: 30px;
+    color:white;
+    /*align-items: center;*/
+    overflow-x: hidden;    
+}
+.main-header a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: all .75s;
+}
+.main-link-photo img{
+    border:0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.main-header-link:hover{
+    color:black;
+    background-color: white;
+}
+
+
+.main-content{
+    width: 80%;
+    margin-left: 20%;
+    padding: 50px 30px 50px;
+    box-sizing: border-box;
+}
+.fotos{
+    max-width: 300px;
+    max-height: 300px;
+    transition:all .5s;
+    border-radius: 2%;
+}
+.esquerda{
+    float:left;
+    margin-right: 20px;
+    border-radius: 2%;
+}
+.fotos:hover{
+    opacity: .6;
+}
+.direita{
+    float:right;
+    margin-left: 20px;
+}
+
+.main-footer{
+    font-size: 12px;
+    position: fixed;
+    bottom:0px;
+    width:20%;
+    left:0;
+    color:white;
+    padding: 50px 10px 50px 5px;
+}
+.icon-link{
+    color:white;
+}
+.icon-link:hover{
+    color: #666;
+    transition: color .3s;
+}
+.carousel{
+    height: 340px;
+    width: 400px;
+    display:flex;
+    justify-content: center;
+
+}
+.carousel-photos:hover{
+    opacity: .6;
+}
+.carousel-photos{
+    height: 325px;
+    width: 500px;
+    display:flex;
+    justify-content: center;
+    transition:all .8s;
+}
+
+.carouselWrapper {
+    display: flex;
+    justify-content: center;
+    widows: 100%;
+  }
